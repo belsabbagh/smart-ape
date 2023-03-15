@@ -1,7 +1,7 @@
 
 #[cfg(test)]
 mod individual_creation_tests {
-    use darwin::individual::Individual;
+    use smart_ape::individual::Individual;
     #[test]
     fn test_individual_creation_success() {
         let genes: Vec<f64> = vec![1.0, 2.0, 3.0];

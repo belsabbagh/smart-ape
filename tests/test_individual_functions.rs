@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod individual_functions_tests{
-    use darwin::individual::crossover::single_point_crossover;
-    use darwin::individual::Individual;
+    use smart_ape::individual::crossover::single_point_crossover;
+    use smart_ape::individual::Individual;
     #[test]
     fn test_single_point_crossover() {
         let parent1 = Individual::new(vec![1.0]);

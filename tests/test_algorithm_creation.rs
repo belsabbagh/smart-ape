@@ -1,11 +1,11 @@
 
 #[cfg(test)]
 mod genetic_algorithm_creation_tests {
-    use darwin::individual::crossover::single_point_crossover;
-    use darwin::genetic_algorithm::GeneticAlgorithm;
-    use darwin::individual::Individual;
-    use darwin::individual::mutation::inversion_mutation;
-    use darwin::individual::selection::tournament_selection;
+    use smart_ape::individual::crossover::single_point_crossover;
+    use smart_ape::genetic_algorithm::GeneticAlgorithm;
+    use smart_ape::individual::Individual;
+    use smart_ape::individual::mutation::inversion_mutation;
+    use smart_ape::individual::selection::tournament_selection;
     struct DefaultFns {
         pub crossover: fn(
             &Individual,
